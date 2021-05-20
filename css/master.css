@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior:smooth;
+}
 body{
     font-family: 'open sans', sans-serif;
     height:4700px;
@@ -22,7 +25,7 @@ body{
 .home{
     height: 600px;
     overflow: hidden;
-    background-image: url(../images/image-bg3.jpg);     background-size: cover;
+    background-image: url(../images/image-bg5.jpg);     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin-bottom:60px;
@@ -43,14 +46,14 @@ body{
 }
 .home-icon .icon{
     margin-top: 20px;
-    color: #222;
+    color: #AF26FD;
     font-size:60px;
     cursor:pointer;
     transition:all .3s;
 }
 .home-icon .icon:hover{
     font-size: 65px;
-    color: #AF26FD;
+    color: #9000e4;
 }
 .home-item{
     display: inline-block;
